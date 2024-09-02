@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(223,217,217);
+    background: radial-gradient(circle, rgb(133, 131, 131) 7%, rgba(74,74,74,1) 81%);  
+}
+
+.wrapper {
+    
+    background-color: #3b3a3a;
+    border-radius: 15px;
+    padding: 10px;
+    border: solid 3px black;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    
+    
+}
+.symbols{
+    background-color: rgb(214, 214, 214);
+    box-shadow: -2px 2px 5px 1px #b6b3b3;
+    margin: 2px;
+}
+.input{
+    padding: 5px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #424141;
+    border: none;
+    color: white;
+}
+
+.symbols, .input{
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.input{
+    text-align: end;
+    border: none;
+}
+#equal{
+    background-color: orange;
+    color: white; 
+}
+#add,#subtract,#multiply,#divide,#modulus,#delete_,#clear{
+    background-color: #fff;
+    background-color: rgb(124, 124, 124);
+    color: white;
+}
